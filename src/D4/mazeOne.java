@@ -17,7 +17,7 @@ public class mazeOne {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 10; i++) {
             int T = Integer.parseInt(br.readLine());
 
             visited = new boolean[16][16];
